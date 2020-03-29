@@ -22,14 +22,14 @@ public class Posts {
     private String title;
 
     @Column(columnDefinition = "TEXT", nullable = false)
-    private String contents;
+    private String content;
 
     private String author;
 
     @Builder
-    public Posts(String title, String contents, String author){
+    public Posts(String title, String content, String author){
         this.title = title;
-        this.contents = contents;
+        this.content = content;
         this.author = author;
     }
 
