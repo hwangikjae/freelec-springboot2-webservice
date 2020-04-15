@@ -25,6 +25,6 @@ public class IndexControllerTest {
         String body = this.restTemplate.getForObject("/", String.class);
 
         //then
-        assertThat(body).contains("스프링 부트로 시작하는 웹 서비스");//index.mustache에 적은거랑 오타 주의!!!!
+        assertThat(body).contains("보고 있나 김정훈이");//index.mustache에 적은거랑 오타 주의!!!!
     }
 }
